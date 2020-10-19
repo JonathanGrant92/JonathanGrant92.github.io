@@ -1,4 +1,6 @@
 # JonathanGrant92.github.io
+https://jonathangrant92.github.io/
+
 A project to host a personal portfolio website, etc.
 
 ## Goals
