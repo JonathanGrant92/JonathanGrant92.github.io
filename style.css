@@ -1,12 +1,40 @@
+@font-face {
+  font-family: text_font;
+  src: url(sansation_bold.woff);
+}
+
+* {
+  font: text_font;
+}
+
 .container-fluid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.contents-box {
+  box-sizing: border-box;
+  margin-left: 16px;
+}
+
+.image-box {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.body {
   padding: 1em;
   margin: 2em;
   color: white;
   background: linear-gradient(to left, hsl(0, 100%, 97%), hsl(0, 100%, 50%));
 }
 
-.contents-box {
-  margin-left: 16px;
+li {
+  padding: 4px;
+}
+  
+img {
+  border: 5px solid black;
 }
 
 a {
