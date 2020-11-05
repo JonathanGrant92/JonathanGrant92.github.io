@@ -1,5 +1,18 @@
 .container-fluid {
-  margin: 5em;
-  color: maroon;
-  background: linear-gradient(to bottom right, hsl(180, 60%, 45%), hsl(0, 60%, 45%));
+  padding: 1em;
+  margin: 2em;
+  color: white;
+  background: linear-gradient(to left, hsl(0, 100%, 97%), hsl(0, 100%, 50%));
+}
+
+.contents-box {
+  margin-left: 16px;
+}
+
+a {
+  color: #66ffff;
+}
+
+foot {
+  text-align: center;
 }
