@@ -30,6 +30,8 @@ li {
   
 img {
   border: 5px solid black;
+  width:10em;
+  height:auto;
 }
 
 a {
