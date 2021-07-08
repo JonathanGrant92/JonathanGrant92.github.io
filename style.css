@@ -4,24 +4,21 @@ html {
 }
 
 a {
-  color: #66ffff;
+  color: darkblue;
+}
+
+a:hover {
+  color: aqua;
 }
 
 article {
   padding-right: 32em;
-}
-
-article aside {
-  padding-right: 0em;
-  float:  right;
+  box-sizing: border-box;
+  margin-left: 2em;
 }
 
 footer {
   text-align: center;
-}
-
-h1 {
-  flex: 5;
 }
 
 h1, h2, h3 {
@@ -29,13 +26,16 @@ h1, h2, h3 {
 }
 
 header {
-  text-align: center;
-  display: flex;
-  flex-flow: row wrap;
+  background: hsl(0, 100%, 75%);
+}
+
+header section {
+  color: white;
+  font-size: large;
 }
 
 header img {
-  display: block;
+  float: right;
   max-height: 5em;
   width: auto;
   box-sizing: border-box;
@@ -59,10 +59,10 @@ nav {
 
 nav li {
   display: inline;
-  /*text-align: center;*/
 }
 
-section {
-  box-sizing: border-box;
-  margin-left: 2em;
+section aside{
+  border-left: 6px solid darkred;
+  float: right;
+  color: darkred;
 }
