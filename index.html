@@ -1,30 +1,79 @@
-<!DOCTYPE html>
-<html>
- <head>
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-  <div class="body">
-  <h1>Portfolio of Jonathan Grant</h1>
-  <div class = "container-fluid">
-    <div class = "contents-box">
-      <p>I'm hosted with GitHub Pages.</p>
-      <h3>Projects List</h3>
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Jonathan H Grant's Github Pages</title>
+
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <header>
+    <h1>Jonathan H Grant</h1>
+
+    <img class="image-box" src="images/profile-may21-s.jpg" 
+        alt="jonathan's LinkedIn profile picture">
+
+    <nav >
       <ul>
-        <li><a href="https://github.com/MSU-CS3250-DreamTeam/Database">A Database using Java with a team.</a></li>
-        <li>A <a href="https://github.com/JonathanGrant92/game-off-2020">submission</a> for the 
-              <a href="https://itch.io/jam/game-off-2020">Game Off 2020</a> jam.</li>
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="#software-projects">Projects</a></li>
       </ul>
-    </div>
-    <div class="image-box">
-      <img src="images/profile-pic.jpg"
-           alt="my linkedin profile picture">
-    </div>
-  </div>
-  </div>
-</body>
-<foot>
-  <p>Webpage hosted by Github Pages and licensed under MIT.</p>
-</foot>
+    </nav>
+  </header>
+
+  <body>
+    <main role="main">
+      <article>
+        <section>
+          <h1>Professional Portfolio</h1>
+
+          <p>A computer science student of Metropolitan State University of Denver. Strengths are <em>passionate learner</em>, </em>diligent programmer</em>, and </em>receptive team player</em>. Interests include software development. His ambition is to satisfy professional software development standards for developer roles in relevant industries.</p>
+        </section>
+
+        <section>
+          <h2 id="software-projects">Software Projects</h2>
+
+          <ul>
+            <li>
+              <p>A business-customer-product psuedo database using Java by a team hosted on <a href="https://github.com/MSU-CS3250-DreamTeam/Database">github</a>.</p>
+              
+              <aside>
+                <figure>
+                  <img src="images/sales-chart.jpg" width="450" height="270">
+
+                  <figcaption>Example of database project output.</figcaption>
+                </figure>
+              </aside>
+
+              <ul>
+                <li>Pair programmed <em>sorting and searching algorithms</em> with peers.</li>
+
+                <li><em>Designed</em> and proposed <em>classes</em> and behavior to peers <em>using UML.</em></li>
+
+                <li>Led the final sprint of the project by GitHub Project Board, peer review and Agile meetings.</li>
+
+                <li>Designed a modular <a href="https://github.com/JonathanGrant92/GuiMenu">Java GUI Project</a> for the menu control flow of any project including CMDB.</li>
+
+                <li>Programmed a pdf output using pdf and graphing java libraries.</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      
+
+      <aside>
+        <figure>
+          <iframe src="https://codepen.io/JonathanGrant92/full/dQmJXX" title="fcc codepen technical documentation webpage" width="100%" height="400em"></iframe>
+          
+          <figcaption>A technical documentation mock up for the web responsive design certificate of Free Code Camp Organization</figcaption>
+        </figure>
+      </aside> 
+    </main>
+  </body>
+
+  <footer>
+    <p>Webpage hosted by Github Pages and licensed under MIT</licensed>.</p>
+  </footer>
 </html>

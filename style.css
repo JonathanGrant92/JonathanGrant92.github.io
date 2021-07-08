@@ -1,43 +1,68 @@
-* {
+html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
-
-.container-fluid {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-.contents-box {
-  box-sizing: border-box;
-  margin-left: 16px;
-}
-
-.image-box {
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.body {
-  padding: 1em;
-  margin: 2em;
-  color: white;
-  background: linear-gradient(to left, hsl(0, 100%, 97%), hsl(0, 100%, 50%));
-}
-
-li {
-  padding: 4px;
-}
-  
-img {
-  border: 5px solid black;
-  width:10em;
-  height:auto;
+  background-color: #a9a9a9;
 }
 
 a {
   color: #66ffff;
 }
 
-foot {
+article {
+  padding-right: 32em;
+}
+
+article aside {
+  padding-right: 0em;
+  float:  right;
+}
+
+footer {
   text-align: center;
+}
+
+h1 {
+  flex: 5;
+}
+
+h1, h2, h3 {
+  font-family: cursive;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header img {
+  display: block;
+  max-height: 5em;
+  width: auto;
+  box-sizing: border-box;
+  border: 5px solid black;
+}
+
+main {
+  display: block;
+  /*grid-template-columns: auto auto;*/
+  padding: 1em;
+  margin: 2em;
+  margin-right: -0.5em;
+  color: white;
+  background: linear-gradient(to left, hsl(0, 100%, 97%), hsl(0, 100%, 50%));
+}
+
+nav {
+  flex: 100%;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  /*text-align: center;*/
+}
+
+section {
+  box-sizing: border-box;
+  margin-left: 2em;
 }
